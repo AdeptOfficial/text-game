@@ -140,6 +140,9 @@ function keyTyped(){
         state = 4;
         typed = '';
       } else if (typed == 'follow'){
+        state = 4;
+        typed = '';
+      } else if (typed == 'lead'){
         state = 8;
         typed = '';
       }
